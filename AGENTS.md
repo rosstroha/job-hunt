@@ -32,11 +32,12 @@ Do not save a job if it already exists. Base this off its source's unique identi
 ## Job Matching Criteria
 
 1. If the agent has not read README.md already, do it now.
-2. The stated salary is +/- $10k of the user's current salaray, which is never to be committed to git. It's to be stored in memory and this is where the agent should check first if it does not already know.
+2. The stated salary is no more than $10k under the user's current salary, which is never to be committed to git. It's to be stored in memory and this is where the agent should check first if it does not already know.
 3. Remote is highly prefered over hybrid or in-person only. When the job aligns with personal interests, the user will consider non-remote positions and they should be considered a potential match (Job metadata #3.4).
 4. The position requires align with past experience. The user's resume will be added to this repo root.
 5. It is a software engineering or development position.
 6. The salary is only considered for matching when it is stated in the listing.
+7. Positions higher than Senior should be more carefully considered for qualification.
 
 ## Personal Interests
 
